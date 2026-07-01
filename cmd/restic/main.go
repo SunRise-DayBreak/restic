@@ -96,6 +96,7 @@ The full documentation can be found at https://restic.readthedocs.io/ .
 		newRecoverCommand(globalOptions),
 		newRepairCommand(globalOptions),
 		newRestoreCommand(globalOptions),
+		newS3RestoreCommand(globalOptions),
 		newRewriteCommand(globalOptions),
 		newSnapshotsCommand(globalOptions),
 		newStatsCommand(globalOptions),
